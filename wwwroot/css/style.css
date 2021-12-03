@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+html {
+    min-height: 100%;
+}
+
+body{
+    margin: 0 auto;
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(135deg, #68d4ff 10%, rgb(36, 60, 129) 90%);
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 10px;
+}
+
+.link{
+    text-decoration: none;
+    text-shadow: 2px 3px 2px #000000;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+#navbar2{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    text-shadow: 3px 3px 2px #000000;
+    font-size: 20px;
+}
+
+/* main container */
+#maincontainer{
+    display: flex;
+}
+
+/* leftbox rules */
+#myphoto{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    /* justify-content: center; */
+}
+
+#leftbox{
+    min-height: 500px;
+    width: 700px;
+    margin-left: 50px;
+    /* border: black dotted; */
+    text-align: center;
+    padding-top: 25px;
+
+    
+}
+#rightbox{
+    min-height: 100px;
+    width: 500px;
+    margin-left: 50px;
+    /* border: black dotted; */
+    text-align: center;
+    padding-top: 15px;
+    text-shadow: 3px 3px 2px #284689;
+}
+
+.text{
+    text-shadow: 3px 3px 2px #284689;
+}
+
+
+
+/* nav bottom */
+#navbottom{
+    background-color: #ffffff50;
+    min-height: 25px;
+    width: 100%; 
+    bottom: 0px;
+    position: fixed;
+}

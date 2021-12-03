@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+html {
+    min-height: 100%;
+}
+
+body{
+    margin: 0 auto;
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(45.34deg, #db6565 20%, #000000 80%);
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 5px;
+}
+
+.link{
+    text-decoration: none;
+    text-shadow: 2px 3px 2px #000000;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+#navbar2{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    text-shadow: 3px 3px 2px #3f1818;
+    font-size: 20px;
+    min-height: 50px;
+}
+
+/* container */
+#container{
+    margin: 0 auto;
+    border: rgb(0, 0, 0) solid;
+    border-radius: 3%;
+    height: 400px;
+    width: 800px;
+}
+/* projects */
+.projects{
+    min-height: 220px;
+    width: 775px;
+    /* border: rgb(0, 0, 0) solid; */
+    padding: 15px 0 0 15px;
+    display: flex;
+}
+
+.projectDescription{
+    padding-left: 30px;
+    padding-right: 10px;
+    text-shadow: 3px 3px 2px #3f1818;
+}
+
+#picture{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+/* nav bottom */
+#navbottom{
+    background-color: rgb(50,53,70);
+    min-height: 20px;
+    width: 100%; 
+    bottom: 0px;
+    position: fixed;
+}
